@@ -3,49 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Custom Pastebin</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Custom Background Website</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+    h1 {
+      margin: 0;
+    }
+    main {
+      padding: 50px;
+    }
+    footer {
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <div class="logo">
-      <img src="logo.png" alt="Website Logo">
-    </div>
-    <h1>Custom Pastebin</h1>
-    <nav>
-      <a href="#">Mirrors</a>
-      <a href="#">Telegram</a>
-    </nav>
+    <h1>Welcome to My Custom Website</h1>
   </header>
   <main>
-    <div class="search-bar">
-      <input type="text" placeholder="Search for a paste">
-      <button>Search</button>
-    </div>
-    <div class="content">
-      <h2>Pinned Pastes</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Title</th>
-            <th>Comments</th>
-            <th>Views</th>
-            <th>Created By</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><a href="#">Sample Title</a></td>
-            <td>10</td>
-            <td>200</td>
-            <td>Admin</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <p>This is a simple website with a custom background hosted on GitHub Pages.</p>
   </main>
   <footer>
-    <p>© 2024 Custom Pastebin</p>
+    <p>© 2024 Hama1alt</p>
   </footer>
 </body>
 </html>
